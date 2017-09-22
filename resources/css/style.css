@@ -1,0 +1,122 @@
+html  {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: white;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+body {
+  display: block;
+  line-height: 1.4 rem;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+div {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+footer {
+  background-color: azure;
+  padding; 4em 2rem;
+  display: flex;
+  align-items: center;
+}
+head {
+  display: none;
+}
+header {
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
+  backgroud-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+header .flex {
+  justify-content: flex-end;
+}
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+img {
+  border-style: none;
+}
+script {
+  display: none;
+}
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+title {
+  display: none;
+}
+.truncated-menu {
+  display: none;
+}
+ul {
+  margin-right: 1rem;
+}
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+ul, menu, dir {
+  display: block;
+  list-style-type:disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+@media only screen and (max-width: 1024px)
+.container {
+  margin: auto;
+}
+header {
+  padding-top: 0;
+  height: 22rem;
+}
+.main-banner {
+  padding: 0.75 rem 4rem;
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+.main-banner h1 {
+  font-size: 1.33rem;
+}
+nav.container {
+  max-width: 100%;
+}
