@@ -8,7 +8,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 }
 body {
   display: block;
-  line-height: 1.4 rem;
+  line-height: 1.4rem;
 }
 .container {
   max-width: 960px;
@@ -22,7 +22,7 @@ div {
 }
 footer {
   background-color: azure;
-  padding; 4em 2rem;
+  padding: 4rem 2rem;
   display: flex;
   align-items: center;
 }
@@ -30,8 +30,8 @@ head {
   display: none;
 }
 header {
-  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
-  backgroud-repeat: no-repeat;
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 1rem;
@@ -39,6 +39,17 @@ header {
 }
 header .flex {
   justify-content: flex-end;
+}
+img {
+  border-style: none;
+}
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+.info p {
+  padding: 1rem 0;
 }
 nav {
   padding: 1rem 0;
@@ -57,18 +68,41 @@ nav img {
   margin-left: 2rem;
   margin-right: 1rem;
 }
-img {
-  border-style: none;
+p {
+  display: block;
 }
-script {
-  display: none;
+.paper-icon {
+  width: 3.5rem;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 5rem;
+    height: 8rem;
+    margin: 3rem;
+}
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
 }
 .supporting {
   display: flex;
   justify-content: center;
 }
-title {
-  display: none;
+.supporting-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+    background-color: cadetblue;
+    display: flex;
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    color: white;
+    max-width: 10rem;
 }
 .truncated-menu {
   display: none;
@@ -82,7 +116,7 @@ ul li {
 }
 li {
   display: list-item;
-  text-align: -webkit-match-parent;
+  text-align: match-parent;
 }
 .main-banner {
   background-color: white;
@@ -95,28 +129,41 @@ li {
 ul, menu, dir {
   display: block;
   list-style-type:disc;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
 }
-@media only screen and (max-width: 1024px)
-.container {
-  margin: auto;
-}
+@media only screen and (max-width: 1024px){
 header {
   padding-top: 0;
   height: 22rem;
 }
 .main-banner {
-  padding: 0.75 rem 4rem;
+  padding: 0.75rem 4rem;
   margin-top: 5rem;
   margin-right: 2rem;
 }
-.main-banner h1 {
+h1 {
   font-size: 1.33rem;
 }
 nav.container {
   max-width: 100%;
+}
+}
+@media only screen and (max-width: 470px) {
+.supporting-container{
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+.copyright {
+  display: none;
+}
+footer {
+  justify-content: center;
+}
+.info {
+  width: 90%;
+  margin-top: 0.5rem;
+}
 }
