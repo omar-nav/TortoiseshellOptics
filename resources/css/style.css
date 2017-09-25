@@ -180,13 +180,29 @@ ul, menu, dir {
     margin-top: 0.5rem;
   }
   .main-banner {
+    width: 100%;
     padding: 1rem;
-    margin-top: 9rem;
+    margin-top: 7rem;
+    margin-right: 0;
+    background-position: 20%;
   }
   nav.container {
     max-width: 100%;
   }
+  p {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-family: Helvetica;
+    font-size: 0.77rem;
+  }
+  .service div {
+    margin-top: 0.77rem;
+    margin-top: 0.77rem;
+    font-size: 0.77rem;
+  }
   .supporting{
+    margin-top: 3rem;
+    margin-botton: 3rem;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
